@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "user_admin_id_999",
+    "name": "Admin User",
+    "email": "admin@example.com",
+    "password": "$2a$10$m2xDzo.55mXGlgw9g6feyOCwB6LRr13A1MxlhzhMEQAJse.AcAAyu",
+    "isAdmin": true,
+    "createdAt": "2026-06-21T10:21:54.717Z"
+  },
+  {
+    "_id": "user_regular_id_888",
+    "name": "Regular Customer",
+    "email": "user@example.com",
+    "password": "$2a$10$m2xDzo.55mXGlgw9g6feyOwIMKb7FU6cZsjMNZv/j6Q/MHIkKsJ3G",
+    "isAdmin": false,
+    "createdAt": "2026-06-21T10:21:54.719Z"
+  }
+]
