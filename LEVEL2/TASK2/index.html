@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav><h1>Quiz Platform</h1></nav>
+    <div id="app">
+        <div id="home">
+            <h2>Welcome!</h2>
+            <button onclick="showSection('create')">Create a Quiz</button>
+            <button onclick="showSection('browse')">Take a Quiz</button>
+        </div>
+        
+        <div id="create" style="display:none;">
+            <h2>Create New Quiz</h2>
+            <input type="text" id="quizTitle" placeholder="Quiz Title">
+            <div id="questionsContainer"></div>
+            <button onclick="addQuestionField()">Add Question</button>
+            <button onclick="saveQuiz()">Save Quiz</button>
+        </div>
+
+        <div id="browse" style="display:none;">
+            <h2>Available Quizzes</h2>
+            <div id="quizList"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

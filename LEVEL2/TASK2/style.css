@@ -1,0 +1,6 @@
+body { font-family: sans-serif; padding: 20px; line-height: 1.6; }
+nav { background: #007bff; color: white; padding: 10px; text-align: center; }
+#app { max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ccc; }
+button { background: #28a745; color: white; border: none; padding: 10px; margin: 5px; cursor: pointer; }
+input { display: block; width: 100%; margin: 10px 0; padding: 8px; }
+.quiz-item { border-bottom: 1px solid #eee; padding: 10px; cursor: pointer; }
